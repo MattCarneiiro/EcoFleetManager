@@ -12,9 +12,13 @@ The project follows a clean Layered Architecture, loosely based on the MVC (Mode
 
 src/main/java/org/example/ecofleet/
 ├── view/        # UI Layer: Handles user input and console output.
+
 ├── service/     # Business Layer: "The Brain". Logic, validation, and calculations.
+
 ├── repository/  # Data Access Layer: In-memory storage (HashMap) and CRUD operations.
+
 ├── model/       # Domain Layer: Entities, Records, and Enums.
+
 └── util/        # Infrastructure: File I/O and helper classes.
 
 
